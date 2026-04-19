@@ -10,7 +10,7 @@ using UnityEngine.Networking;
 namespace Skeleton_Jumpscare;
 
 // TODO - adjust the plugin guid as needed
-[BepInAutoPlugin(id: "io.github.drb1220.skeleton_jumpscare")]
+[BepInAutoPlugin(id: "io.github.ClungoGit.skeleton_jumpscare")]
 public partial class Skeleton_JumpscarePlugin : BaseUnityPlugin
 {
     private readonly List<Texture2D> frames = new();
